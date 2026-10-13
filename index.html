@@ -11,7 +11,22 @@
     </head>
     <body class="bg-dark">
         <nav class="navbar navbar-expand bg-black">
-            <img src="/images/crashedRacingWordmark.png" class="align-left mx-auto" style="max-height:100px;"/>
+            <div class="btn text-black btn-black dropdown-toggle m-5">
+                Text
+            </div>
+            <a href="/" class="align-left mx-auto">
+                <img src="/images/crashedRacingWordmark.png" style="max-height:100px;"/>
+            </a>
+            <div class="dropdown">
+                <a class="btn btn-danger dropdown ms-5 me-5" style="--bs-btn-bg:#600050; --bs-btn-border-color:#600050;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="/images/Burger.png" class="image-fluid rounded" style="max-height:50px;">
+                </a>
+                <ul class="dropdown-menu bg-dark" data-bs-theme="dark">
+                    <li><a href="/gallery.html" class="dropdown-item text-white" style="--bs-dropdown-link-hover-bg:#600050; --bs-dropdown-link-active-bg:#bb2d3b;">Gallery</a></li>
+                    <li><a href="/drivers.html" class="dropdown-item text-white" style="--bs-dropdown-link-hover-bg:#600050; --bs-dropdown-link-active-bg:#bb2d3b;">Drivers</a></li>
+                    <li><a href="/results.html" class="dropdown-item text-white" style="--bs-dropdown-link-hover-bg:#600050; --bs-dropdown-link-active-bg:#bb2d3b;">Results</a></li>
+                </ul>
+            </div>
         </nav>
         <div class="align-items-center text-center">
             <br>
